@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BugTrackingApp.App" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.Login" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAgAAAAA=</HashCode>
+      <FileName>Login.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BugTrackingApp.Registartion" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQCAAAAABAAAAABAAAAAAgAIAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Registartion.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BugTrackingApp.Administration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAYAAIAAAAAQIAAAAIAhAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ui\view\admin\Administration.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BugTrackingApp.Migrations.Configuration" Collapsed="true">
+    <Position X="13.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Migrations\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.Properties.Resources" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.Properties.Settings" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.service.model.BugTrackingEntities" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAIQA=</HashCode>
+      <FileName>service\model\BugTrackingEntities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.service.model.Comment" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAACAAAAAAAAAAAAAAAIAAAAAQAAAAA=</HashCode>
+      <FileName>service\model\Comment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.service.model.Project" Collapsed="true">
+    <Position X="3" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCACAAAAAAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>service\model\Project.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.service.model.Ticket" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAQAAAAAIAAACAAABAAFAAAAAAACAAAAIAA=</HashCode>
+      <FileName>service\model\Ticket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.service.model.User" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAgAAAEABAAAAAEAAAAAAAAAgAAIQA=</HashCode>
+      <FileName>service\model\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.service.model.ProjectUtils">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAACIAAAAAgAAAAAAAAAAQAAAAAAAAAAKAAAAA=</HashCode>
+      <FileName>service\utils\ProjectUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.service.model.TicketUtils">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="BugTrackingApp.service.model.TicketUtils.TicketType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>service\utils\TicketUtils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="BugTrackingApp.service.model.TicketUtils.TicketPriority" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>service\utils\TicketUtils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="BugTrackingApp.service.model.TicketUtils.TicketStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>service\utils\TicketUtils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAACAAAAAACAAAAAQAAAAEAAAAAAAACAAA=</HashCode>
+      <FileName>service\utils\TicketUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.service.model.UserUtils">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="BugTrackingApp.service.model.UserUtils.UserRole" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>service\utils\UserUtils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgDiAAgAQABAACACAAAAAAAAAAAAQAAAAAAIAAAAAA=</HashCode>
+      <FileName>service\utils\UserUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.ui.model.converter.TicketIdConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ui\model\converter\TicketIdConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BugTrackingApp.ui.model.converter.TicketStatusConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ui\model\converter\TicketStatusConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BugTrackingApp.ui.model.converter.UserByCommentIdConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ui\model\converter\UserByCommentIdConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BugTrackingApp.ui.model.converter.UserNameIdConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ui\model\converter\UserNameIdConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BugTrackingApp.ui.model.converter.UserRoleConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ui\model\converter\UserRoleConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BugTrackingApp.ui.model.RegisterUser" Collapsed="true">
+    <Position X="2.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAAAAAAAAAQABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ui\model\RegisterUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.ui.model.UserAssignmentCbListItem" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>ui\model\UserAssignmentCbListItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.ui.utils.UIUtils" Collapsed="true">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABggBAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAg=</HashCode>
+      <FileName>ui\utils\UIUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.ui.ValidationUtils" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ui\ValidationUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BugTrackingApp.ui.view.project.AddProject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>ui\view\admin\project\AddProject.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BugTrackingApp.ui.view.project.EditProject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAABAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>ui\view\admin\project\EditProject.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BugTrackingApp.ui.view.user.EditUser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAABAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>ui\view\admin\user\EditUser.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BugTrackingApp.ui.view.HomeWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAgAAAAAAAAIgAAAAAAAAAAAAA=</HashCode>
+      <FileName>ui\view\HomeWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BugTrackingApp.ui.view.ticket.AddTicket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAgAAAIAAAAAAAgAAAAABAAAAAAIAAAAAAAAABA=</HashCode>
+      <FileName>ui\view\ticket\AddTicket.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BugTrackingApp.ui.view.ticket.AssignUser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ui\view\ticket\AssignUser.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BugTrackingApp.ui.view.ticket.ViewTicket" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgABgAAAIAAAAAAAgAAAAABAAAAAAIAAAAAAAAABA=</HashCode>
+      <FileName>ui\view\ticket\ViewTicket.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BugTrackingApp.utils.Logger" Collapsed="true">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>utils\Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
